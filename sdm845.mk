@@ -184,6 +184,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:64 \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
+    
+# QTI Perf Component
+TARGET_COMMON_QTI_COMPONENTS := perf
 
 # Freeform Multiwindow
 PRODUCT_COPY_FILES += \
